@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_news/constants.dart';
-import 'package:riverpod_news/main.dart';
-import 'package:riverpod_news/service.dart';
-import 'package:riverpod_news/states.dart';
+import 'package:riverpod_news_app/constants.dart';
+import 'package:riverpod_news_app/main.dart';
+import 'package:riverpod_news_app/service.dart';
+import 'package:riverpod_news_app/states.dart';
 import 'package:url_launcher/url_launcher.dart' as url_launcher;
 
 class SearchResultsScreen extends ConsumerStatefulWidget {
@@ -59,7 +59,6 @@ class _SearchResultsScreenState extends ConsumerState<SearchResultsScreen> {
                           title: Text(news.title),
                           subtitle: Text('${news.author ?? 'Unknown Author'}, ${news.source}'),
                           onTap: () {
-                            print(news.url);
                             url_launcher.launchUrl(Uri.parse(news.url));
                           },
                         ),
@@ -81,7 +80,6 @@ class _SearchResultsScreenState extends ConsumerState<SearchResultsScreen> {
                               title: Text(news.title),
                               subtitle: Text('${news.author ?? 'Unknown Author'}, ${news.source}'),
                               onTap: () {
-                                print(news.url);
                                 url_launcher.launchUrl(Uri.parse(news.url));
                               },
                             ),

@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_news/database/database.dart';
-import 'package:riverpod_news/screens/search_screen.dart';
+import 'package:riverpod_news_app/database/database.dart';
+import 'package:riverpod_news_app/screens/search_screen.dart';
 
 late AppDatabase appDatabase;
 

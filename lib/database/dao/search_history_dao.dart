@@ -1,5 +1,5 @@
 import 'package:floor/floor.dart';
-import 'package:riverpod_news/database/entitiy/search_history.dart';
+import 'package:riverpod_news_app/database/entitiy/search_history.dart';
 
 @dao
 abstract class SearchHistoryDao {

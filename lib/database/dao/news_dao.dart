@@ -1,5 +1,5 @@
 import 'package:floor/floor.dart';
-import 'package:riverpod_news/database/entitiy/news.dart';
+import 'package:riverpod_news_app/database/entitiy/news.dart';
 
 @dao
 abstract class NewsDao {

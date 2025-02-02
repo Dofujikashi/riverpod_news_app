@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_news/constants.dart';
-import 'package:riverpod_news/database/entitiy/search_history.dart';
-import 'package:riverpod_news/main.dart';
-import 'package:riverpod_news/states.dart';
-import 'package:riverpod_news/utility.dart';
+import 'package:riverpod_news_app/constants.dart';
+import 'package:riverpod_news_app/database/entitiy/search_history.dart';
+import 'package:riverpod_news_app/main.dart';
+import 'package:riverpod_news_app/states.dart';
+import 'package:riverpod_news_app/utility.dart';
 
 class SearchScreen extends ConsumerStatefulWidget {
   const SearchScreen({super.key});

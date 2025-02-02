@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_news/screens/search_results_screen.dart';
+import 'package:riverpod_news_app/screens/search_results_screen.dart';
 
 PageRouteBuilder getPageRoute(bool isComingFromSearchHistory) {
   return PageRouteBuilder(
