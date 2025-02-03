@@ -1,6 +1,6 @@
 # riverpod_news
 
-A new Flutter project.
+A basic news app that uses riverpod for state management.
 
 ## Getting Started
 
